@@ -62,6 +62,8 @@ dependencies {
 
     implementation(AndroidX.coreKtx)
     implementation(AndroidX.lifecycleRuntime)
+
+    // Compose
     implementation(Compose.activityCompose)
     implementation(platform(Compose.bomCompose))
     implementation(Compose.ui)
@@ -69,18 +71,34 @@ dependencies {
     implementation(Compose.uiToolingPreview)
     implementation(Compose.material3)
 
+    // DaggerHilt
     implementation(DaggerHilt.hiltNavigationCompose)
     implementation(DaggerHilt.hiltAndroid)
     kapt(DaggerHilt.hiltAndroidCompiler)
     kapt(DaggerHilt.hiltCompiler)
 
+    // Testing
     testImplementation(Testing.junit4)
+    testImplementation(Testing.testRunner)
     androidTestImplementation(Testing.junitAndroidExt)
     androidTestImplementation(Testing.espressoCore)
     androidTestImplementation(platform(Compose.bomCompose))
     androidTestImplementation(Testing.composeUiTest)
     debugImplementation(Testing.composeUiTooling)
     debugImplementation(Testing.composeUiTestManifest)
+
+    // JUnit5
+    testImplementation(Testing.junit5)
+    testRuntimeOnly(Testing.jupiterEngine)
+    testImplementation(Testing.jupiterParams)
+
+    // MockK
+    testImplementation(Testing.mockK)
+    androidTestImplementation(Testing.mockKAndroid)
+
+    // Truth
+    testImplementation(Testing.truth)
+    androidTestImplementation(Testing.truth)
 }
 
 // Allow references to generated code
