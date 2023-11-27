@@ -1,4 +1,4 @@
-package com.flounderguy.jellysnap.domain.device_scan
+package com.flounderguy.jellysnap.domain.bluetooth
 
 sealed interface ConnectionResult {
     object ConnectionEstablished: ConnectionResult

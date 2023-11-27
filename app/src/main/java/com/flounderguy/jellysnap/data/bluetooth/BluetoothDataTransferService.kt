@@ -1,8 +1,8 @@
-package com.flounderguy.jellysnap.data.device_scan
+package com.flounderguy.jellysnap.data.bluetooth
 
 import android.bluetooth.BluetoothSocket
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothMessage
-import com.flounderguy.jellysnap.domain.device_scan.TransferFailedException
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothMessage
+import com.flounderguy.jellysnap.domain.bluetooth.TransferFailedException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

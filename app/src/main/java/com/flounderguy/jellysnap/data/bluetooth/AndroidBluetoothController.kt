@@ -1,4 +1,4 @@
-package com.flounderguy.jellysnap.data.device_scan
+package com.flounderguy.jellysnap.data.bluetooth
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -10,10 +10,10 @@ import android.bluetooth.BluetoothSocket
 import android.content.Context
 import android.content.IntentFilter
 import android.content.pm.PackageManager
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothController
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothDeviceDomain
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothMessage
-import com.flounderguy.jellysnap.domain.device_scan.ConnectionResult
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothController
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothDeviceDomain
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothMessage
+import com.flounderguy.jellysnap.domain.bluetooth.ConnectionResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

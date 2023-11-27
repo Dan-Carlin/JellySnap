@@ -1,4 +1,4 @@
-package com.flounderguy.jellysnap.data.device_scan
+package com.flounderguy.jellysnap.data.bluetooth
 
 import android.bluetooth.BluetoothDevice
 import android.content.BroadcastReceiver

@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothDevice
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothDevice
 import com.flounderguy.jellysnap.presentation.BluetoothUiState
 
 @Composable
