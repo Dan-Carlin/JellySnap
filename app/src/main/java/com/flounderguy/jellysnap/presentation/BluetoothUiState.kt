@@ -1,7 +1,7 @@
 package com.flounderguy.jellysnap.presentation
 
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothDevice
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothMessage
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothDevice
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothMessage
 
 data class BluetoothUiState(
     val scannedDevices: List<BluetoothDevice> = emptyList(),

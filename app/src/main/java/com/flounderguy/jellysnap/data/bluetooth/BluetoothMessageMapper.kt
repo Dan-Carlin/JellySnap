@@ -1,6 +1,6 @@
-package com.flounderguy.jellysnap.data.device_scan
+package com.flounderguy.jellysnap.data.bluetooth
 
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothMessage
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothMessage
 
 fun String.toBluetoothMessage(isFromLocalUser: Boolean): BluetoothMessage {
     val name = substringBeforeLast("#")

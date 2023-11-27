@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothMessage
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothMessage
 import com.flounderguy.jellysnap.ui.theme.JellySnapTheme
 import com.flounderguy.jellysnap.ui.theme.OldRose
 import com.flounderguy.jellysnap.ui.theme.Vanilla

@@ -2,9 +2,9 @@ package com.flounderguy.jellysnap.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothController
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothDeviceDomain
-import com.flounderguy.jellysnap.domain.device_scan.ConnectionResult
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothController
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothDeviceDomain
+import com.flounderguy.jellysnap.domain.bluetooth.ConnectionResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow

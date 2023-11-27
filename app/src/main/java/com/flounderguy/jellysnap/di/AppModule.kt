@@ -1,8 +1,8 @@
 package com.flounderguy.jellysnap.di
 
 import android.content.Context
-import com.flounderguy.jellysnap.data.device_scan.AndroidBluetoothController
-import com.flounderguy.jellysnap.domain.device_scan.BluetoothController
+import com.flounderguy.jellysnap.data.bluetooth.AndroidBluetoothController
+import com.flounderguy.jellysnap.domain.bluetooth.BluetoothController
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
